@@ -1,0 +1,47 @@
+{
+    "tripName": "Wyoming/Idaho Trip 2026",
+    "traveler": {
+        "name": "Hannah Gibson",
+        "contact": {
+            "email": "email@email.com",
+            "phone": 5555555555,
+        }
+    },
+    "destinations": [
+        {
+            "location": "Jackson Hole",
+            "arrivalDate": "2026-07-15",
+            "departureDate": "2026-07-19",
+            "activities": [
+                {
+                    "activityName":"Elk Festival",
+                    "time": "10:00 AM"
+                },
+                {
+                    "activityName":"Rodeo",
+                    "time": "7:00 PM"
+                }
+            ]
+        }
+        {
+            "location": "Sawtooth Mountains",
+            "arrivalDate": "2026-07-19",
+            "departureDate": "2026-07-22",
+            "activities": [
+                {
+                    "activityName":"Hiking",
+                    "time": "8:00 AM"
+                },
+                {
+                    "activityName":"Shopping",
+                    "time": "3:00 PM"
+                },
+                {
+                    "activityName":"Breweries",
+                    "time": "7:00 PM"
+                }
+            ]
+        }
+    ]
+
+}
