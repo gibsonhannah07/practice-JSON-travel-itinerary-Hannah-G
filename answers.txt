@@ -1,0 +1,20 @@
+○ Nesting: How did you organize the additional details in the traveler 
+field, and how does it improve the organization of the data overall? 
+
+Two nested arrays, it allows the data to be kept together. 
+
+○ Arrays: For the destinations and activities, what data structure 
+did you use?  What impact did this decision have? 
+
+I used an array for destination and activities, and the data within each were strings.
+This helps when data does not need a label because they are all the same category, but still should be grouped.
+
+○ Scalability: How could this JSON structure be expanded to include 
+additional details, such as hotel information or transportation options? 
+
+Hotel information can be added in each destination as a key-pair within each object.
+Transportation options could use an array instead of a string to give mode choices, or if you want to add the cost along with it, an array of objects and mode and cost within.   
+
+○ Real-World Application: How would this data be useful in a travel app or API?
+
+Using these things could allow an app to show each set of data with drill down buttons to get more detailed information as necessary, but then move back up when finished looking at it.
