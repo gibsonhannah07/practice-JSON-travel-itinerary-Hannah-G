@@ -12,13 +12,17 @@
             "location": "Jackson Hole",
             "arrivalDate": "2026-07-15",
             "departureDate": "2026-07-19",
+            "mode": {
+                "transportation": "Bus",
+                "cost": 25.00
+            },
             "activities": [
                 {
-                    "activityName":"Elk Festival",
+                    "activityName": "Elk Festival",
                     "time": "10:00 AM"
                 },
                 {
-                    "activityName":"Rodeo",
+                    "activityName": "Rodeo",
                     "time": "7:00 PM"
                 }
             ]
@@ -27,21 +31,50 @@
             "location": "Sawtooth Mountains",
             "arrivalDate": "2026-07-19",
             "departureDate": "2026-07-22",
+            "mode": {
+                "transportation": "train",
+                "cost": 100.00
+            },
             "activities": [
                 {
-                    "activityName":"Hiking",
+                    "activityName": "Hiking",
                     "time": "8:00 AM"
                 },
                 {
-                    "activityName":"Shopping",
+                    "activityName": "Shopping",
                     "time": "3:00 PM"
                 },
                 {
-                    "activityName":"Breweries",
+                    "activityName": "Breweries",
                     "time": "7:00 PM"
+                }
+            ]
+        },
+        {
+            "location": "Iceland",
+            "arrivalDate": "2026-07-22",
+            "departureDate": "2026-08-30",
+            "mode": {
+                "transportation": "Plane",
+                "cost": 1000.00
+            },
+            "activities": [
+                {
+                    "activityName": "Hot Springs",
+                    "time": "10:00 AM",
+                    "duration": "3 hours"
+                },
+                {
+                    "activityName": "Lunch",
+                    "time": "1:00 PM",
+                    "duration": "2 hours"
+                },
+                {
+                    "activityName": "Northern Lights",
+                    "time": "9:00 PM",
+                    "duration": "2 hours"
                 }
             ]
         }
     ]
-
 }
